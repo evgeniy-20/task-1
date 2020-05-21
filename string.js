@@ -1,15 +1,5 @@
-const str1 = 'бабочки';
-function string(str) {
-    let b = '';
-    for(let i = 0; i < str.length; i++) {
-        if(i % 2 === 0) {
-            b = b + str[i]
-        }
-    }
-    return b;
-}
-console.log(string(str1));
-console.log(string('абрикоса'));
+
+
 const a = 'aabbbcccc'
 const countLetters = (input) =>  {
     const c = {}
